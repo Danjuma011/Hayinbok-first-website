@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>understanding the box</title>
+
+</head>
+    <style>
+        #box-1{
+            border: 2px solid blue;
+            border-radius: 5px ;
+            background-color: brown;
+            color: azure;
+            /* TOP/BUTTON LEFT/FLOAT */
+            margin: 10px;
+            width: 50%;
+            float: left;
+        }
+        #box-2{
+            border: 5px solid red;
+            border-radius: 10px;
+            background-color: black;
+            color: brown;
+            margin: 5px;
+            width: 50%;
+            float: right;
+        
+        }
+        .box h2{
+            
+        }
+        #box-3{
+            border: 10px solid blue;
+            border-radius: 5px;
+            background-color: aqua;
+            color: black;
+            margin: 5px;
+            width: 20%;
+            float: left;
+        }
+    </style>
+<body>
+    <div class="container">
+        <div id="box-1" class="box">
+    <div>
+        <h2>understanding the box model</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, repudiandae?</p>
+
+    </div>
+    </div>
+        <div id="box-2" class="box">
+            <div>
+        <h2>understanding the box model</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, repudiandae?</p>
+        </div>
+    </div>
+    <div>
+        <div id="box-3" class="box">
+            <h2>understanding the box model</h2>
+            <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, sunt?</P>
+            </div>
+
+    </div>
+
+    
+</body>
+   
+   
+</html>
